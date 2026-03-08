@@ -1,0 +1,26 @@
+[
+  {
+    "id": "T001",
+    "lat": 34.778,
+    "lng": -82.310,
+    "species": "Red Oak",
+    "notes": "Healthy, pruned 2025",
+    "tags": ["mature", "shade"]
+  },
+  {
+    "id": "T002",
+    "lat": 34.782,
+    "lng": -82.305,
+    "species": "Maple",
+    "notes": "Young tree, added mulch",
+    "tags": ["young", "colorful"]
+  },
+  {
+    "id": "T003",
+    "lat": 34.775,
+    "lng": -82.315,
+    "species": "Pine",
+    "notes": "Check for pests soon",
+    "tags": ["evergreen"]
+  }
+]
