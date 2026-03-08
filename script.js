@@ -1,8 +1,8 @@
 // Wait for the page to load
 document.addEventListener("DOMContentLoaded", function () {
   // Initialize the map centered roughly on Mauldin, SC
-  var map = L.map("map").setView([34.778, -82.310], 16); // zoom level 16 is good for property
-  // ← Add this line here
+  var map = L.map("map").setView([34.778, -82.310], 16); 
+  
   setTimeout(() => { map.invalidateSize(); }, 100);
 
   // Add free OpenStreetMap tiles
