@@ -5,9 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Tree Map</title>
   
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
-        
+  <!-- Leaflet CSS - no integrity to avoid current hash issues -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
   
   <style>
     body { margin: 0; padding: 0; }
@@ -17,11 +16,10 @@
 <body>
   <div id="map"></div>
 
-  <!-- Leaflet JS -->
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" 
-          
+  <!-- Leaflet JS - no integrity -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   
-  <!-- Our custom script (we'll add this next) -->
+  <!-- Our custom script -->
   <script src="script.js"></script>
 </body>
 </html>
